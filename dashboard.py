@@ -7,7 +7,7 @@ st.set_page_config(page_title="PCB Defect Inspector", layout="wide")
 st.title("Automated PCB Defect Inspector")
 @st.cache_resource
 def load_yolo_model():
-    return YOLO("Weights/best.pt")
+    return YOLO("weights/best.pt")
 try:
     model= load_yolo_model()
 except Exception:
