@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Short_circuit', 'damged', 'lack_of_part', 'miss_welding', 'redundant', 'slug', 'spillover']
+
+roboflow:
+  workspace: nbmachinevision
+  project: pcb-defect-vagef
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nbmachinevision/pcb-defect-vagef/dataset/2
