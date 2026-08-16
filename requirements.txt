@@ -1,10 +1,5 @@
-ultralytics
-fastapi
-uvicorn
 streamlit
+ultralytics
 opencv-python-headless
-numpy
 pillow
-python-multipart
-pydantic
-numpy
+reportlab
